@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.nav-section {
+  background: #fff;
+}
+
+/* 
+<uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 100 to 900
+.noto-sans-<uniquifier > {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+} 
+*/
+
+/* ========== FOOTER ========== */
+.insta-icon-link {
+  color: #535864;
+}
+
+.insta-icon-link:hover {
+  color: #ff4aa8;
+  transition: 0.6s ease;
+}
+
+
+
+/* ========== HOME - HERO ========== */
+
+
+h1 {
+  color: #14213d;;
+  font-weight: 700;
+}
+
+h2 {
+  color: #14213d;
+  font-weight: 600;
+}
+
+p {
+  font-weight: 500;
+  font-size: 18px;
+  font-style: normal;
+  color: #626979;
+}
+
+
+/* === SEE ALL BTN === */
+
+.see-all-btn {
+  text-decoration: none;
+  background-color: #E9F9ED;
+  color: #2CC653;
+  padding: 10px 40px 10px 40px;
+  border-radius: 5px;
+}
+
+.see-all-btn:hover {
+  color: #E9F9ED;
+  background-color: #2CC653;
+  transition: 0.6s ease-in-out;
+}
+
+
+/* === CONTACT SECTION === */
+.contact-text {
+  text-decoration: none;
+  color: #535864;
+}
+
+
+
+
+/* ========== VIDEO ========== */
+/* Make sure the video container takes the full width of the screen */
+.video-container {
+  width: 100%;
+}
+
+/* Ensure the video element itself is also responsive */
+.video-container video {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+}
+
+
+
+/* ========== PHOTO GRID ========== */
+.custom-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
